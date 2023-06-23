@@ -1,0 +1,154 @@
+.bg {
+    background-color: #D7D4CD;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    position: static;
+    text-decoration: none;
+}
+
+.menu li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    position: static;
+    padding-bottom: 4px;
+    
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.galeria {
+    width: auto;
+    height: 80%;
+
+}
+
+section {
+    padding: 10px;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.rodapé {
+    font-family: 'Times New Roman', Times, serif;
+    color: #666666;
+    float: right;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Scrollbar */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #9e9e9e #ecf1ee;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ecf1ee;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9e9e9e;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  /*Links*/
+  /* link que ainda não foi visitado */
+a:link {
+    color: black;
+    text-decoration: none;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: black;
+     text-decoration: none;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+     text-decoration: none;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: black;
+     text-decoration: none;
+ }
+
+
+
+
+ /* Página Sobre mim*/
+
+ .card {
+    width: 500px;
+    height: 500px;
+    background-color: #666666;
+    border-radius: 5px;
+    padding: 0px;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    text-decoration: none;
+    list-style: none;
+ }
+
+.sobremim {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.icones {
+    height: 32px;
+    width: 32px;
+    display: inline;
+}
+
+.icones li {display: flex;
+width: 48px;
+height: 48px;
+display: inline-block;
+padding: 10px;
+}
+
+.eu {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+ }
